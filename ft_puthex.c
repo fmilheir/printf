@@ -6,13 +6,13 @@
 /*   By: fmilheir <fmilheir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/11 11:47:21 by fmilheir          #+#    #+#             */
-/*   Updated: 2022/05/11 16:43:06 by fmilheir         ###   ########.fr       */
+/*   Updated: 2022/05/11 17:00:37 by fmilheir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_puthex(unsigned int n, int *res)
+int	ft_puthex(unsigned long int n, int *res)
 {
 	if (n >= 16)
 	{
