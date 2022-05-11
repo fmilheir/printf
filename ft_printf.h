@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: fmilheir <fmilheir@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/05/11 11:44:35 by fmilheir          #+#    #+#             */
+/*   Updated: 2022/05/11 16:43:10 by fmilheir         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
@@ -10,7 +22,7 @@ int	ft_putchar(char c, int *res);
 int	ft_putstr(char *s, int *res);
 int	ft_putdec(int n, int *res);
 int	ft_putuns(unsigned int n, int *res);
-int	ft_puthex(unsigned long long int n, int *res);
-int	ft_puthup(unsigned long long num, int *res);
-int	ft_putpnt(unsigned long long int n, int *res);
+int	ft_puthex(unsigned int n, int *res);
+int	ft_puthup(unsigned int num, int *res);
+int	ft_putpnt(unsigned long int n, int *res);
 #endif
